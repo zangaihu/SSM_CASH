@@ -1,6 +1,8 @@
 # SSM_CASH
 “互联网+”个人资金管理系统  
 
+![image](https://github.com/zangaihu/SSM_CASH/blob/master/images/ca.png)
+
 
 主要功能包括17个模块：
 
