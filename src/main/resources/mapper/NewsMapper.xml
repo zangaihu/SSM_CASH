@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cash.mapper.NewsMapper">
+  <resultMap id="BaseResultMap" type="com.cash.pojo.News">
+    <id column="n_id" jdbcType="INTEGER" property="nId" />
+    <result column="n_title" jdbcType="VARCHAR" property="nTitle" />
+    <result column="n_date" jdbcType="DATE" property="nDate" />
+    <result column="n_author" jdbcType="INTEGER" property="nAuthor" />
+    <result column="n_summary" jdbcType="VARCHAR" property="nSummary" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.cash.pojo.News">
+    <result column="n_text" jdbcType="LONGVARCHAR" property="nText" />
+    <result column="n_img" property="nImg"/>
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    n_id, n_title, n_date, n_author, n_summary
+  </sql>
+  <sql id="Blob_Column_List">
+    n_text
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from news
+    where n_id = #{nId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from news
+    where n_id = #{nId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.cash.pojo.News">
+    insert into news (n_id, n_title, n_date, 
+      n_author, n_summary, n_text
+      )
+    values (#{nId,jdbcType=INTEGER}, #{nTitle,jdbcType=VARCHAR}, #{nDate,jdbcType=DATE}, 
+      #{nAuthor,jdbcType=INTEGER}, #{nSummary,jdbcType=VARCHAR}, #{nText,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+
+
+  <insert id="insertSelective" useGeneratedKeys="true" keyProperty="nId" parameterType="com.cash.pojo.News">
+    insert into news
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="nId != null">
+        n_id,
+      </if>
+      <if test="nTitle != null">
+        n_title,
+      </if>
+      <if test="nDate != null">
+        n_date,
+      </if>
+      <if test="nAuthor != null">
+        n_author,
+      </if>
+      <if test="nSummary != null">
+        n_summary,
+      </if>
+      <if test="nImg != null">
+        n_img,
+      </if>
+      <if test="nText != null">
+        n_text,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="nId != null">
+        #{nId,jdbcType=INTEGER},
+      </if>
+      <if test="nTitle != null">
+        #{nTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="nDate != null">
+        Now(),
+      </if>
+      <if test="nAuthor != null">
+        #{nAuthor,jdbcType=INTEGER},
+      </if>
+      <if test="nSummary != null">
+        #{nSummary,jdbcType=VARCHAR},
+      </if>
+       <if test="nImg != null">
+        #{nImg},
+      </if>
+      <if test="nText != null">
+        #{nText,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cash.pojo.News">
+    update news
+    <set>
+      <if test="nTitle != null">
+        n_title = #{nTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="nDate != null">
+        n_date = now(),
+      </if>
+      <if test="nAuthor != null">
+        n_author = #{nAuthor,jdbcType=INTEGER},
+      </if>
+      <if test="nSummary != null">
+        n_summary = #{nSummary,jdbcType=VARCHAR},
+      </if>
+      <if test="nImg != null and nImg != ''">
+        n_img = #{nImg,jdbcType=VARCHAR},
+      </if>
+      <if test="nText != null">
+        n_text = #{nText,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where n_id = #{nId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.cash.pojo.News">
+    update news
+    set n_title = #{nTitle,jdbcType=VARCHAR},
+      n_date = #{nDate,jdbcType=DATE},
+      n_author = #{nAuthor,jdbcType=INTEGER},
+      n_summary = #{nSummary,jdbcType=VARCHAR},
+      n_text = #{nText,jdbcType=LONGVARCHAR}
+    where n_id = #{nId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cash.pojo.News">
+    update news
+    set n_title = #{nTitle,jdbcType=VARCHAR},
+      n_date = #{nDate,jdbcType=DATE},
+      n_author = #{nAuthor,jdbcType=INTEGER},
+      n_summary = #{nSummary,jdbcType=VARCHAR}
+    where n_id = #{nId,jdbcType=INTEGER}
+  </update>
+
+
+
+</mapper>

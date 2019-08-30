@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--<classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" />-->
+
+    <context id="Mybatis3Context" targetRuntime="MyBatis3">
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="nullCatalogMeansCurrent" value="true"/>
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/cash?serverTimezone=UTC&amp;useSSL=false"
+                        userId="root"
+                        password="123456">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="true"/>
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="com.cash.pojo" targetProject="D:\JetBrains\IDEA\IDEAProject\ssm_cash\src\main\java\">
+            <property name="enableSubPackages" value="true"/>
+<!--            <property name="trimStrings" value="true"/>-->
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="mapper" targetProject="D:\JetBrains\IDEA\IDEAProject\ssm_cash\src\main\resources\">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.cash.mapper" targetProject="D:\JetBrains\IDEA\IDEAProject\ssm_cash\src\main\java\">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+
+        <table schema="cash" tableName="news" domainObjectName="News" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false" >
+        </table>
+
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cash.mapper.AccountMapper">
+  <resultMap id="BaseResultMap" type="com.cash.pojo.Account">
+    <id column="a_id" jdbcType="INTEGER" property="aId" />
+    <result column="a_name" jdbcType="VARCHAR" property="aName" />
+    <result column="a_password" jdbcType="VARCHAR" property="aPassword" />
+    <result column="a_number" jdbcType="VARCHAR" property="aNumber" />
+    <result column="a_email" jdbcType="VARCHAR" property="aEmail" />
+    <result column="a_state" jdbcType="VARCHAR" property="aState" />
+    <result column="a_phone" jdbcType="VARCHAR" property="aPhone" />
+    <result column="a_identity" jdbcType="VARCHAR" property="aIdentity" />
+    <result column="role" property="role"></result>
+    <result column="createtime" property="createtime"></result>
+    <result column="money" property="money"></result>
+    <result column="active" property="active"></result>
+    <result column="code" property="code"></result>
+  </resultMap>
+  <sql id="Base_Column_List">
+    a_id, a_name, a_password, a_number, a_email, a_state, a_phone, a_identity, role, createtime
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from account
+    where a_id = #{aId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from account
+    where a_id = #{aId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.cash.pojo.Account">
+    insert into account (a_id, a_name, a_password, 
+      a_address, a_email, a_state, 
+      a_phone, a_identity)
+    values (#{aId,jdbcType=INTEGER}, #{aName,jdbcType=VARCHAR}, #{aPassword,jdbcType=VARCHAR}, 
+      #{aAddress,jdbcType=VARCHAR}, #{aEmail,jdbcType=VARCHAR}, #{aState,jdbcType=VARCHAR}, 
+      #{aPhone,jdbcType=VARCHAR}, #{aIdentity,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cash.pojo.Account">
+    insert into account
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="aId != null">
+        a_id,
+      </if>
+      <if test="aName != null">
+        a_name,
+      </if>
+      <if test="aPassword != null">
+        a_password,
+      </if>
+      <if test="aAddress != null">
+        a_address,
+      </if>
+      <if test="aEmail != null">
+        a_email,
+      </if>
+      <if test="aState != null">
+        a_state,
+      </if>
+      <if test="aPhone != null">
+        a_phone,
+      </if>
+      <if test="aIdentity != null">
+        a_identity,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="aId != null">
+        #{aId,jdbcType=INTEGER},
+      </if>
+      <if test="aName != null">
+        #{aName,jdbcType=VARCHAR},
+      </if>
+      <if test="aPassword != null">
+        #{aPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="aAddress != null">
+        #{aAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="aEmail != null">
+        #{aEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="aState != null">
+        #{aState,jdbcType=VARCHAR},
+      </if>
+      <if test="aPhone != null">
+        #{aPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="aIdentity != null">
+        #{aIdentity,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cash.pojo.Account">
+    update account
+    <set>
+      <if test="aName != null">
+        a_name = #{aName,jdbcType=VARCHAR},
+      </if>
+      <if test="aPassword != null">
+        a_password = #{aPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="aAddress != null">
+        a_address = #{aAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="aEmail != null">
+        a_email = #{aEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="aState != null">
+        a_state = #{aState,jdbcType=VARCHAR},
+      </if>
+      <if test="aPhone != null">
+        a_phone = #{aPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="aIdentity != null">
+        a_identity = #{aIdentity,jdbcType=VARCHAR},
+      </if>
+      <if test="role != null">
+        role = #{role},
+      </if>
+      <if test="createtime != null">
+        createtime = #{createtime},
+      </if>
+
+    </set>
+    where a_id = #{aId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cash.pojo.Account">
+    update account
+    set a_name = #{aName,jdbcType=VARCHAR},
+      a_password = #{aPassword,jdbcType=VARCHAR},
+      a_address = #{aAddress,jdbcType=VARCHAR},
+      a_email = #{aEmail,jdbcType=VARCHAR},
+      a_state = #{aState,jdbcType=VARCHAR},
+      a_phone = #{aPhone,jdbcType=VARCHAR},
+      a_identity = #{aIdentity,jdbcType=VARCHAR}
+    where a_id = #{aId,jdbcType=INTEGER}
+  </update>
+
+
+  <update id="changeState" parameterType="com.cash.pojo.Account">
+    update  account set a_state=#{aState} where a_id=#{aId}
+  </update>
+
+  <select id="getSelective" resultMap="BaseResultMap">
+    select * from account
+    <where>
+      <if test="aName!=null and aName!='' ">
+      and  a_name=#{aName}
+      </if>
+      <if test="aState!=null and aState !=''">
+      and  a_state=#{aState}
+      </if>
+    </where>
+  </select>
+
+  <select id="query4login" resultMap="BaseResultMap">
+     select * from  account  where a_name = #{aName} and a_password = #{aPassword}
+  </select>
+
+  <select id="query4Regist" resultMap="BaseResultMap">
+     select * from  account  where a_name = #{aName}
+  </select>
+
+  <insert id="addAccount" parameterType="com.cash.pojo.Account">
+     insert into account values (null,#{aName},#{aPassword},#{aNumber},#{aEmail},#{aState},#{aPhone},#{aIdentity},#{role},#{createtime},#{money},#{active}, #{code} )
+  </insert>
+
+  <update id="updateAccount" parameterType="com.cash.pojo.Account">
+    update  account
+    <set>
+      <if test="aPhone != null">
+        a_phone=#{aPhone,jdbcType=VARCHAR},
+      </if>
+      <if test="aEmail != null">
+        a_email=#{aEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="aIdentity != null">
+        a_identity=#{aIdentity,jdbcType=VARCHAR},
+      </if>
+      <if test="aPassword != null">
+        a_password=#{aPassword,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where a_id=#{aId,jdbcType=INTEGER}
+  </update>
+
+
+
+
+  <update id="Inmoney" parameterType="com.cash.pojo.Account">
+    update account set money=money+#{money}  where a_id=#{id}
+  </update>
+
+  <update id="Outmoney" parameterType="com.cash.pojo.Account">
+    update account set money=money-#{money}  where a_id=#{id}
+  </update>
+
+</mapper>
