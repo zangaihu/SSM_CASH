@@ -7,947 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01c389c1-2ddb-4219-9bc3-abfca1584074" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cash/controller/SocketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cash/utils/CodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cash/utils/HttpServletRequestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cash/utils/MD5Until.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cash/websocket/SocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cash/websocket/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cash/websocket/WebSocketInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-webscoket.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/sockjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/code.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/message.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-black-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-black.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-blue-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-green-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-purple-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-red-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/css/skins/skin-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/boxed-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/credit/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/credit/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/credit/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/credit/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/credit/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/credit/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/credit/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/default-50x50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/js/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/css/bootstrap-markdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/js/bootstrap-markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/js/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/js/to-markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/less/bootstrap-markdown.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.ptBR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/locale/bootstrap-markdown.zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-markdown/scss/bootstrap-markdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-slider/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/chartjs/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/chartjs/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/CHANGES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/adapters/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/build-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/contents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/image/dialogs/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/link/dialogs/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/pastefromword/filter/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/scayt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/scayt/dialogs/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/table/dialogs/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/wsc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/css/samples.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/img/github-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/img/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/img/header-separator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/img/navigation-tip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/js/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/js/sf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/api.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/appendto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/assets/inlineall/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/assets/posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/assets/uilanguages/languages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/datafiltering.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/divreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/inlineall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/readonly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/replacebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/sample_posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/tabindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/uicolor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/uilanguages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/font/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/dialog_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/dialog_ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/dialog_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/editor_gecko.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/editor_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/editor_ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/editor_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/editor_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/hidpi/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/hidpi/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/images/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/skins/moono/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ckeditor/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/bootstrap-colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/bootstrap-colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/img/alpha-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/img/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/img/hue-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/colorpicker/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/columns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/fill-both.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/scrolling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/examples/step-callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/images/filler.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/col_filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/colvis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/new_init.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/predefined.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/realtime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/scrolling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/server_side.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/examples/state_save.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/images/insert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/button_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/group_columns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/jqueryui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/mouseover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/new_init.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/restore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/title_callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/two_tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/colvis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/css_size.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/index_column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/right_column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/scrolling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/compact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/data/2500.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/data/ssp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/large_js_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/examples/state_saving.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/images/loading-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/button_text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/collection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/defaults.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/jqueryui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/multi_instance.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/new_init.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/pdf_message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/plug-in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_column.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_multi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_os.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/select_single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/examples/swf_path.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/collection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/collection_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/copy_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/csv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/csv_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/pdf_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/print.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/print_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/psd/collection.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/psd/printer.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/xls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/images/xls_hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datatables/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/daterangepicker/daterangepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/daterangepicker/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fastclick/fastclick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fastclick/fastclick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fullcalendar/fullcalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fullcalendar/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/jquery.inputmask.date.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/jquery.inputmask.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/jquery.inputmask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/phone-codes/phone-be.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/phone-codes/phone-codes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/input-mask/phone-codes/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionicons/css/ionicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionicons/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionicons/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionicons/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionicons/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionicons/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionslider/img/sprite-skin-flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionslider/img/sprite-skin-nice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionslider/ion.rangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionslider/ion.rangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionslider/ion.rangeSlider.skinFlat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/ionslider/ion.rangeSlider.skinNice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryUI/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryUI/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jvectormap/jquery-jvectormap-usa-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/morris/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/morris/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/morris/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/raphael/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/slimScroll/jquery.slimscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/sparkline/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/timepicker/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/timepicker/bootstrap-timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/timepicker/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/timepicker/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/treeTable/jquery.treetable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/treeTable/jquery.treetable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/treeTable/jquery.treetable.theme.default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cash/controller/MoneyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cash/controller/MoneyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cash/pojo/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cash/pojo/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/account-outmoney.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/account-outmoney.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testMail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testMail$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testMail.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -982,11 +49,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-inmoney.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-outmoney.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/AccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="175">
               <caret line="72" selection-start-line="72" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/MoneyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11">
+              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/NewsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/pubMsg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/pojo/News.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="28" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-edit-pswd.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="389" column="28" lean-forward="true" selection-start-line="388" selection-start-column="20" selection-end-line="390" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -1023,20 +177,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cash/utils/RandomCreditCardNumberGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/news_detail2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/news_list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cash/pojo/News.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/service/NewsService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/NewsMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/controller/NewsController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/account-inmoney.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/account-main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/account-outmoney.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/account-record.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/account-transfer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/news_list_user.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/news_detail_user.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/aside.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/aside_wkh.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cash/controller/MoneyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/service/AccoutService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/aside_manage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -1045,12 +196,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/code.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/utils/MD5Until.java" />
-        <option value="$PROJECT_DIR$/src/test/testMail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/utils/AESOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/controller/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cash/utils/pubMsg.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -1062,10 +211,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cash/utils/checkMail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/utils/UpdateEmail.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cash/service/impl/AccoutServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/account-profile.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/account-edit-pswd.jsp" />
+        <option value="$PROJECT_DIR$/src/test/testMail.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/account-outmoney.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cash/controller/MoneyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cash/utils/pubMsg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cash/pojo/News.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
       </list>
     </option>
   </component>
@@ -1117,8 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1168,26 +320,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cash" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_cash" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cash" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_cash" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cash" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
@@ -1209,7 +342,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
@@ -1217,13 +350,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_cash" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
@@ -1232,12 +359,22 @@
             </path>
             <path>
               <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="ssm_cash" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_cash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_cash" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_cash-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1248,6 +385,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.275" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
@@ -1432,8 +572,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AESOperator" />
         <item itemvalue="Application.testMail" />
+        <item itemvalue="Application.AESOperator" />
         <item itemvalue="Application.RandomCreditCardNumberGenerator" />
         <item itemvalue="Application.checkMail" />
       </list>
@@ -1473,11 +613,25 @@
       <workItem from="1567040919147" duration="5765000" />
       <workItem from="1567147105176" duration="4314000" />
       <workItem from="1567153298415" duration="336000" />
+      <workItem from="1567153760135" duration="1397000" />
+      <workItem from="1567155503056" duration="740000" />
+      <workItem from="1567393107396" duration="3125000" />
+      <workItem from="1567471256131" duration="2024000" />
+      <workItem from="1567478340643" duration="807000" />
+      <workItem from="1567652215674" duration="7029000" />
     </task>
+    <task id="LOCAL-00001" summary="SSM_CASH">
+      <created>1567154765043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567154765043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196956000" />
+    <option name="totallyTimeSpent" value="212078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1492,7 +646,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.27786666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.29706666" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.26613334" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1503,21 +657,22 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8336" weight="0.3671875" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83306664" visible="true" weight="0.36689037" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992" weight="0.39932886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32925472" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924107" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.74986666" weight="0.32885906" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49973333" weight="0.32997763" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49973333" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.1664" side_tool="true" weight="0.3548387" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008" side_tool="true" weight="0.96644294" />
       <window_info anchor="bottom" id="Problems" order="12" weight="0.32924107" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32924107" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49973333" weight="0.32885906" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4512" weight="0.1328125" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.4992" weight="0.41294643" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.45013332" weight="0.20917226" />
+      <window_info anchor="bottom" id="SVN Repositories" order="17" sideWeight="0.49973333" visible="true" weight="0.32997763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1577,289 +732,51 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SSM_CASH" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSM_CASH" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RecordMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/success.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="169" column="10" selection-start-line="169" selection-start-column="10" selection-end-line="169" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/mapper/AccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/testMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/MoneyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="144" column="17" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/AESOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-676">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/aside.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/aside_wkh.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/pubMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2154">
-          <caret line="318" lean-forward="true" selection-start-line="318" selection-end-line="318" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/code.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header1.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header_manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/aside_manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/news_list_user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3750" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account_detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4075">
-          <caret line="163" column="64" selection-start-line="163" selection-start-column="64" selection-end-line="163" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-transfer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/news_list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/manage-main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3225">
-          <caret line="129" column="60" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="613" column="24" selection-start-line="613" selection-start-column="24" selection-end-line="613" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/NewsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/RecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/SocketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/CodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/MD5Until.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/MailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/HttpServletRequestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-record.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="69" column="70" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/service/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="222" column="32" lean-forward="true" selection-start-line="222" selection-start-column="32" selection-end-line="222" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/service/AccoutService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/service/impl/AccoutServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-main.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-outmoney.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/changeEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/checkMail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1877,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-inmoney.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1898,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-edit-pswd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="376" column="39" lean-forward="true" selection-start-line="376" selection-start-column="39" selection-end-line="376" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/MailProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
@@ -1912,16 +815,335 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="627" column="32" lean-forward="true" selection-start-line="627" selection-start-column="32" selection-end-line="627" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/testMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/pojo/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1850">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/pojo/Manage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/pojo/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/mapper/ManageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ManageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/mapper/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/mapper/RecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/mail.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/service/impl/AccoutServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NewsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+          <folding>
+            <element signature="e#2020#2038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-961" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-webscoket.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mail.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mail.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/spring-webscoket.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/spring-mail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-inmoney.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/MoneyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-outmoney.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/pojo/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/account-edit-pswd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="389" column="28" lean-forward="true" selection-start-line="388" selection-start-column="20" selection-end-line="390" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/utils/pubMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cash/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="175">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ssm_cash:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.275" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.275" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|ssm_cash</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.275" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1929,6 +1151,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.275" />
               </list>
             </option>
           </splitter-proportions>

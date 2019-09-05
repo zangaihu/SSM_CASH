@@ -24,19 +24,12 @@ public class News {
                 + nId
                 + ",\"nTitle\":\""
                 + nTitle + '\"'
-                + ",\"nDate\":\""
-                + nDate + '\"'
-                + ",\"nAuthor\":"
-                + nAuthor
                 + ",\"nSummary\":\""
                 + nSummary + '\"'
-                + ",\"nText\":\""
-                + nText + '\"'
-                + ",\"nImg\":\""
-                + nImg + '\"'
                 + "}}";
 
     }
+
 
     public String getnImg() {
         return nImg;

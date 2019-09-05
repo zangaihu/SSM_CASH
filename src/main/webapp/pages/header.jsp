@@ -147,8 +147,7 @@
 			//alert("Channel:" + message.channel + " content:" + message.content);
 			// $("#msg").innerText=message.content;
 
-
-			layer.msg(message.content+",请重新登录", {time:3000, icon:6}, function () {
+			layer.msg(message.content+", 稍后跳转到登录页面", {time:3000, icon:6}, function () {
 				window.location.href = "/login";
 			});
 
@@ -156,19 +155,18 @@
 
 
 	});
-	goEasy.subscribe({
-		channel: "${loginAccount.aId}",
-		onMessage: function (message) {
-			//alert("Channel:" + message.channel + " content:" + message.content);
-			// $("#msg").innerText=message.content;
+	<%--goEasy.subscribe({--%>
+	<%--	channel: "${loginAccount.aId}",--%>
+	<%--	onMessage: function (message) {--%>
+	<%--		//alert("Channel:" + message.channel + " content:" + message.content);--%>
+	<%--		// $("#msg").innerText=message.content;--%>
 
 
-			layer.alert(message.content ,{offser:'rt'});
+	<%--		layer.alert(message.content ,{offser:'rt'});--%>
 
-		},
+	<%--	},--%>
 
 
-	});
 
 </script>
 <!-- 页面头部 /-->

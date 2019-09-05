@@ -150,7 +150,7 @@
                         <button type="button" class="btn btn-block btn-danger" data-dismiss="modal">返回</button>
                     </div>
                     <div  class="col-md-1 "align="right" style="float:right">
-                        <button onclick="Outmoney()" type="button" class="btn btn-block btn-success " data-dismiss="modal">确定</button>
+                        <button onclick="Outmoney" type="button" class="btn btn-block btn-success " data-dismiss="modal">确定</button>
                     </div>
 
                 </div>
@@ -175,16 +175,8 @@
 </div>
 
 
-<script src="${pageContext.request.contextPath}/vendor/jquery/jquery-1.11.1.min.js"></script>
-<script src="${pageContext.request.contextPath}/vendor/jquery/jquery_ui/jquery-ui.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/admin-tools/admin-forms/js/jquery.validate.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/admin-tools/admin-forms/js/additional-methods.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/admin-tools/admin-forms/js/jquery-ui-datepicker.min.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/utility/utility.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/demo/demo.js"></script>
-<script src="${pageContext.request.contextPath}/assets/js/main.js"></script>
-<script type="text/javascript" src="/js/pages.js"></script>
-<script type="text/javascript" src="/js/items.js"></script>
+
+
 <script
         src="${pageContext.request.contextPath}/plugins/jQuery/jquery-2.2.3.min.js"></script>
 <script

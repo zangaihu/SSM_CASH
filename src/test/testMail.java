@@ -1,4 +1,3 @@
-import com.cash.utils.MD5Until;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.builder.CompareToBuilder;
@@ -16,17 +15,27 @@ import java.util.List;
 public class testMail {
 
     public static void main(String[] args) {
-       //System.out.println(new testMail().valid("2285676817@qq.com", "jootmir.org"));
+      /* //System.out.println(new testMail().valid("2285676817@qq.com", "jootmir.org"));
 
-       /* Random random=new Random(6);
+       *//* Random random=new Random(6);
         int num=random.nextInt(9);
-        System.out.println(num);*/
+        System.out.println(num);*//*
         System.out.println( MD5Until.MD5("123456"));
-        System.out.println(MD5Until.MD5(MD5Until.MD5("123456")));
+        System.out.println(MD5Until.MD5(MD5Until.MD5("123456")));*/
+
+
+
+
+            System.out.println(reverseString("123456789"));
+
 
     }
 
 
+    public static String reverseString(String s){
+        if(s.isEmpty()) return s;
+        return reverseString(s.substring(1))+s.charAt(0);
+    }
     @Test
     public static boolean valid(String toMail, String domain) {
         if(StringUtils.isBlank(toMail) || StringUtils.isBlank(domain)) return false;

@@ -4,6 +4,7 @@ import com.cash.pojo.Account;
 import com.cash.pojo.Record;
 import com.cash.service.AccoutService;
 import com.cash.service.RecordService;
+import com.cash.utils.AESOperator;
 import com.cash.utils.Msg;
 import com.cash.utils.pubMsg;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,7 @@ public class MoneyController {
     @RequestMapping("/toInmoney")
     public String toInmoney(Integer id, Model model){
         Account account =accoutService.querybyId(id);
+        account.setaPassword(AESOperator.getInstance().decrypt(account.getaPassword()));
         model.addAttribute("account",account);
         return  "account-inmoney";
     }
@@ -37,6 +39,7 @@ public class MoneyController {
     @RequestMapping("/toOutmoney")
     public String Outmoney(Integer id, Model model){
         Account account =accoutService.querybyId(id);
+        account.setaPassword(AESOperator.getInstance().decrypt(account.getaPassword()));
         model.addAttribute("account",account);
         return  "account-outmoney";
     }
@@ -44,6 +47,7 @@ public class MoneyController {
     @RequestMapping("/totransfer")
     public String totransfer(Integer id, Model model){
         Account account =accoutService.querybyId(id);
+        account.setaPassword(AESOperator.getInstance().decrypt(account.getaPassword()));
         model.addAttribute("account",account);
         return "account-transfer";
     }
