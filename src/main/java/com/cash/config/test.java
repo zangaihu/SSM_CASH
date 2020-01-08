@@ -15,5 +15,8 @@ public class test {
         Integer count2 = list.stream()
                 .reduce(0, (x, y) -> x + y);
         System.out.println(count2);
+            //dsfsdfsfsfds
+
+
     }
 }
