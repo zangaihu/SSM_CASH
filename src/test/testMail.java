@@ -7,10 +7,7 @@ import org.xbill.DNS.*;
 import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class testMail {
 
@@ -24,9 +21,11 @@ public class testMail {
         System.out.println(MD5Until.MD5(MD5Until.MD5("123456")));*/
 
 
+        List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
+        Integer count2 = list.stream()
+                .reduce(0, (x, y) -> x + y);
+        System.out.println(count2);
 
-
-            System.out.println(reverseString("123456789"));
 
 
     }
