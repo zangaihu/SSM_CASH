@@ -160,7 +160,7 @@
   </select>
 
   <select id="query4Regist" resultMap="BaseResultMap">
-     select * from  account  where a_name = #{aName}
+     select * from  account  where a_name=#{aName}
   </select>
 
   <insert id="addAccount" parameterType="com.cash.pojo.Account">
